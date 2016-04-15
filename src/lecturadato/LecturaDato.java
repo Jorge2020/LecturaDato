@@ -37,5 +37,16 @@ public class LecturaDato {
             
             return entrada;
 
-    }  
+    }
+        
+        public static float datoFloat() throws IOException{
+            
+            float entrada;
+            
+            entrada = Float.parseFloat(cadena());
+            
+            return entrada;
+            
+        }
+        
 }
