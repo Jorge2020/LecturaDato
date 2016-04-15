@@ -28,7 +28,14 @@ public class LecturaDato {
         return cadena;
         
     }
-    
-    
-    
+        
+        public static int datoInt() throws IOException{
+
+            int entrada;
+
+            entrada = Integer.parseInt(cadena());
+            
+            return entrada;
+
+    }  
 }
